@@ -94,7 +94,7 @@ var VoiceRSS = {
 };
 
 const getJoke = async () => {
-  const apiUrl = 'http://umorili.herokuapp.com/api/get?site=anekdot.ru&name=new+anekdot&num=100'
+  const apiUrl = 'https://umorili.herokuapp.com/api/get?site=anekdot.ru&name=new+anekdot&num=100'
   const result = await fetch(apiUrl)
   const data = await result.json()
 
